@@ -8,11 +8,6 @@
   color: var(--white);
   font-size: 14px;
 }
-@mixin tablet {
-  @media(max-width: #{550px}){
-    @content
-  }
-}
 .bgImage{
   display: flex;
   justify-content: flex-end;

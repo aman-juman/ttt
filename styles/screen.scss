@@ -1,21 +1,21 @@
 @mixin large {
-  @media(max-width: #{1200px}) {
+  @media only screen and (max-width: 1200px) {
     @content
   }
 }
 
 @mixin medium {
-  @media(max-width: #{768px}) {
+  @media only screen and (max-width: 768px) {
     @content
   }
 }
 @mixin tablet {
-  @media(max-width: #{550px}){
+  @media only screen and (max-width: 550px){
     @content
   }
 }
 @mixin mobile {
-  @media(max-width: #{440px}) {
+  @media only screen and (max-width: 440px) {
     @content
   }
 }

@@ -1,0 +1,26 @@
+.btnMore {
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  padding: 10px;
+  background: linear-gradient(90deg, #3A8DE2 0%, #8833E1 100%);
+  box-shadow: 5px 5px 200px rgba(0, 0, 0, 0.3);
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: var(--white);
+
+  svg {
+    margin-left: 10px;
+  }
+
+  &:hover {
+    border-radius: 5px;
+  }
+}
+.center{
+  text-align: center;
+}
